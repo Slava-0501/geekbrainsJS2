@@ -1,0 +1,53 @@
+.button-block {
+   display: flex;
+   background-color:aqua;
+   justify-content: end;
+   margin-bottom: 80px;
+}
+
+.cart-button{
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer
+     
+}
+
+.cart-button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.goods-list{
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-item {
+    border-style: solid;
+    border-width: 4px;
+}
+
+.img {
+    width: 260px;
+    height: 230px;
+}
+
+.title {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.text {
+    text-align: center;
+    color:#4CAF50;
+    font-size: 20px;
+}
